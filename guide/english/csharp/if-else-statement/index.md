@@ -21,15 +21,17 @@ else
 
 int Price = 30;
 
-If (Price = 30)
+if (Price == 30)
 {
   Console.WriteLine("Price is equal to 30.");
 }
 
-Else 
+else 
 {
   Console.WriteLine("Price is not equal to 30.");
 }
+
+Console.ReadLine();
 ```
 
 Since we already declared our int Price to be 30, this will be the expected output.
